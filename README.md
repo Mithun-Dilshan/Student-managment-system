@@ -71,22 +71,19 @@ Edit
 ### 1. Clone the Repository
 
 
-git clone [<your-github-repo-url>](https://github.com/Mithun-Dilshan/Student-managment-system.git)
+- git clone [<your-github-repo-url>](https://github.com/Mithun-Dilshan/Student-managment-system.git)
 cd student-management
 ### 2. Open in IntelliJ IDEA
-File > Open > Select student-management folder
+- File > Open > Select student-management folder
 
-Allow Maven to auto-import
+- Allow Maven to auto-import
 
 ### 3. Verify Dependencies
 bash
-Copy
-Edit
-mvn clean install
+ - mvn clean install
 ### 4. Configure application.properties
-properties
-Copy
-Edit
+- properties
+
 
 ### File storage path
 
@@ -94,21 +91,17 @@ Edit
 app.data.file=classpath:data/students.json
 
 ### JSP view resolver
-spring.mvc.view.prefix=/WEB-INF/views/
-spring.mvc.view.suffix=.jsp
+- spring.mvc.view.prefix=/WEB-INF/views/
+- spring.mvc.view.suffix=.jsp
 ### 5. Initialize Data File
 Ensure src/main/resources/data/students.json contains:
 
 json
-Copy
-Edit
 []
 ### 6. Run the Application
-bash
-Copy
-Edit
-mvn spring-boot:run
-Visit: http://localhost:8080/students
+
+ - mvn spring-boot:run
+- Visit: http://localhost:8080/students
 
 ---
 
