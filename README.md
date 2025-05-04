@@ -101,7 +101,7 @@ json
 ### 6. Run the Application
 
  - mvn spring-boot:run
-- Visit: http://localhost:8080/students
+- Visit: http://localhost:8090/students
 
 ---
 
